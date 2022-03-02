@@ -6,7 +6,7 @@ import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Lighting;
 import org.opentutorials.iot.Security;
 
-public class OkJavaGoBackHomeInput {
+public class OkJavaGoBackHomeInput { 
 
 	// parameter 매개변수, args -> argument 인자, 인자값이 매개변수에 저장, []는 문자열로 이뤄져있는 배열
 	public static void main(String[] args) {

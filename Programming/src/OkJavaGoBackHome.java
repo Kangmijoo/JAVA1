@@ -1,4 +1,4 @@
-//import로 클래스 불러오기.(호출할 파일 + ctrl + space > import 경로 자동 생성)
+// import로 클래스 불러오기.(호출할 파일 + ctrl + space > import 경로 자동 생성)
 import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Lighting;
 import org.opentutorials.iot.Security;

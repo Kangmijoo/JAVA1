@@ -1,4 +1,4 @@
-//result1.txt파일에다가 hello1이라는 텍스트를 java를 이용해서 작성
+// result1.txt파일에다가 hello1이라는 텍스트를 java를 이용해서 작성
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
