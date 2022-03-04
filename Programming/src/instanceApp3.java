@@ -1,3 +1,4 @@
+// 사용자에게 작성할 내용을 받아와서 메모장에 저장
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
