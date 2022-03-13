@@ -1,4 +1,4 @@
-/* 정수 3개를 입력받아 합과 평균을 출력해보자. (단, -2147483648 ~ +2147483647)
+/* [산술연산] 정수 3개를 입력받아 합과 평균을 출력해보자. (단, -2147483648 ~ +2147483647)
  * 입력 : 1 2 3	-> 출력 : 6
 						2.0	*/
 import java.util.Arrays;
@@ -9,8 +9,8 @@ public class C1046 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
-		sc.close();
 		String[] arr = str.split(" ");
+		sc.close();
 		// string배열 Arrays클래스 이용해서 int배열로 변환
 		int[] nums = Arrays.stream(arr).mapToInt(Integer::parseInt).toArray();
 		
