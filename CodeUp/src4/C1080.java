@@ -11,7 +11,7 @@ public class C1080 {
 		sc.close();
 		
 		int sum = 0;
-		int i;
+		int i;	 
 		
 		for(i = 0; i < a; i++) {
 			sum = sum + i;

@@ -14,7 +14,7 @@ public class C1078 {
 			if(i % 2 == 0) {
 				sum = sum + i;
 			} else {
-				sum = sum;
+				sum = sum; 
 			}
 		}
 		System.out.println(sum);

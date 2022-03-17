@@ -6,7 +6,7 @@
 									l
 									q	*/
 import java.util.Scanner;
-
+	
 public class C1079 {
 
 	public static void main(String[] args) {
