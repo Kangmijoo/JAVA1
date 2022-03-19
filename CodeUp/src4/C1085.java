@@ -3,7 +3,7 @@
  * 입력 : 44100 16 2 10	-> 출력 : 1.7 MB		*/
 import java.util.Scanner;
 
-public class C1985 {
+public class C1085 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
