@@ -9,7 +9,7 @@ public class C1124 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		sc.close();
-		
+			
 		//C와 H사이 값 구함 -> C원자량
 		Pattern pattern = Pattern.compile("[C](.*?)[H]");
 		Matcher matcher = pattern.matcher(str);
