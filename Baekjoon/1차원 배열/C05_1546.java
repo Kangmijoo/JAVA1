@@ -15,7 +15,7 @@ public class C05_1546 {
 		int[] score = new int[N];
 		for(int i = 0; i < N; i++) {
 			score[i] = sc.nextInt();
-		}
+		}	
 		
 		//점수 중 최대값 구하기
 		Arrays.sort(score);
