@@ -11,6 +11,7 @@ public class C05_1546 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
+		//점수 N개 만큼 score배열에 입력받기
 		int[] score = new int[N];
 		for(int i = 0; i < N; i++) {
 			score[i] = sc.nextInt();
