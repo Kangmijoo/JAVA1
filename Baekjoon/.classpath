@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="반복문"/>
 	<classpathentry kind="src" path="1차원 배열"/>
 	<classpathentry kind="src" path="함수"/>
+	<classpathentry kind="src" path="문자열"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
