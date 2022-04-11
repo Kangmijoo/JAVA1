@@ -4,25 +4,26 @@ public class test {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int left = 13;
-		int right = 17;
+		sc.close();
+		String s = "a B z";
+		int n = 4;
+		String answer = "";
 		
-		int answer = 0;
-        int cnt = 0;
-        for(int i = left; i <= right; i++) {
-            for(int j = 1; j <= i; j++) {
-                if(i % j == 0) {
-                    cnt++;
-                }
-                
+        int b = 0;
+        for(int i = 0; i < s.length(); i++) {
+        	if(s.charAt(i) == ' ') {
+        		b = 32;
+        	} else {
+        		b = (int)s.charAt(i)+n;
+        	}
+            if(b > 122 || (s.charAt(i) < 91 && b > 90)) {
+            	b = b-26;
             }
-            if(cnt % 2 == 0) {
-                answer += i;
-            } else {
-                answer -= i;
-            }
-            cnt = 0;
+            answer += (char)b;
         }
+		
+		System.out.println(answer);
+		
 	}
 
 }
