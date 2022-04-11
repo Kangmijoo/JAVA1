@@ -7,7 +7,7 @@ public class 시저_암호 {
 	class Solution {
 	    public String solution(String s, int n) {
 	        String answer = "";
-	        	
+	        
 	        int a = 0;
 	        for(int i = 0; i < s.length(); i++) {
 	        	//아스키코드 변환
