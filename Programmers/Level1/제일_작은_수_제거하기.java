@@ -12,7 +12,7 @@ public class 제일_작은_수_제거하기 {
 	            list.add(-1);
 	            return list;
 			}
-			
+				
 	        //가장 작은 수 구하기
 			int min = arr[0];
 			for(int i = 0; i < arr.length; i++) {
