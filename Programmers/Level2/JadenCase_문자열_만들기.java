@@ -6,12 +6,16 @@ public class JadenCase_문자열_만들기 {
 	class Solution {
 	    public String solution(String s) {
 	        String answer = "";
-	        
+	        //모두 소문자로 변환
 	        s = s.toLowerCase();
+	        
 			for(int i = 0; i < s.length(); i++) {
+				//첫번째 알파벳 혹은 전에 띄어쓰기가 있던 알바펫을 대문자로 변환
 				if(i == 0 || s.charAt(i-1) == ' ') {
 					answer += s.toUpperCase().charAt(i);
-				} else {
+				} 
+				//그 외에는 모두 그대로 출력
+				else {	
 					answer += s.charAt(i);				
 				}
 			}
